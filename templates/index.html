@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Türkiye Deprem Risk Analizi</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Türkiye Deprem Risk Haritası</h1>
+        <div id="map"></div>
+        <div id="risk-listesi">
+            <h2>Şehir Risk Skorları</h2>
+            <table id="risk-tablosu">
+                <thead>
+                    <tr>
+                        <th>Şehir</th>
+                        <th>Risk Puanı</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
